@@ -1,0 +1,12 @@
+.select-type {
+    cursor: pointer;
+}
+.select-type:hover {
+    background-color: #d1cfcf;
+    transition: ease-in-out 0.2;
+    transform: scale(0.99);
+}
+.selected {
+    background-color: #d1cfcf;
+    color : #000;
+}

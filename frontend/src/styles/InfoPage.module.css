@@ -1,0 +1,45 @@
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    display: grid;
+    align-self: center;
+    justify-self: center;
+    justify-content: space-around;
+}
+.buttonList {
+    display: flex;
+    justify-content: space-evenly; 
+    margin-top: 20px; 
+}
+.button {
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    border: 5px;
+    cursor: pointer;
+}
+.formChangeIoKey {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    display: grid;
+    align-self: center;
+    justify-self: center;
+    justify-content: center;
+}
+.formChangeIoKeyLabel {
+    font-size: 15px;
+    margin: 10px 0px;
+}
